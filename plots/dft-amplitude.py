@@ -1,0 +1,11 @@
+from DftAnalysis import *
+summedFringe=sum(FringePatterns(),axis=0)
+p=PowerSpectrum(summedFringe,oversample=1,windowFunction=None)
+figure(figsize=(6,4))
+plot(sqrt(p[:len(p)/2+1]),color="k")
+ylim(0,50)
+ylabel("magnitude")
+xlabel("frequency")
+xlim(0,100)
+UnBox()
+ShowOrSave()

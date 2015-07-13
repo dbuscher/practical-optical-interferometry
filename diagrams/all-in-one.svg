@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="275.687px" height="132.705px" viewBox="0 0 275.687 132.705" enable-background="new 0 0 275.687 132.705"
+	 xml:space="preserve">
+<g id="Guides">
+</g>
+<g id="Layer_5">
+</g>
+<g id="Labels">
+	<g>
+		<g>
+			<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="90.024" y1="12.137" x2="12.137" y2="12.137"/>
+			<g>
+				<polygon points="87.216,8.434 88.789,12.137 87.216,15.84 95.994,12.137 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="90.024" y1="48.28" x2="14.26" y2="48.28"/>
+			<g>
+				<polygon points="87.216,44.577 88.789,48.28 87.216,51.983 95.994,48.28 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="14.26" y1="84.425" x2="90.024" y2="84.425"/>
+			<g>
+				<polygon points="87.216,88.128 88.789,84.425 87.216,80.722 95.994,84.425 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="90.024" y1="120.568" x2="14.26" y2="120.568"/>
+			<g>
+				<polygon points="87.216,116.865 88.789,120.568 87.216,124.271 95.994,120.568 				"/>
+			</g>
+		</g>
+	</g>
+	<text transform="matrix(1 0 0 1 224.8936 68.7686)" font-family="'ArialMT'" font-size="9">1 + 2 + 3 + 4</text>
+	<text transform="matrix(1 0 0 1 27.2476 8.7314)" font-family="'ArialMT'" font-size="9">Beam 1</text>
+	<text transform="matrix(1 0 0 1 27.2476 44.873)" font-family="'ArialMT'" font-size="9">Beam 2</text>
+	<text transform="matrix(1 0 0 1 27.2476 81.3062)" font-family="'ArialMT'" font-size="9">Beam 3</text>
+	<text transform="matrix(1 0 0 1 27.2476 117.6396)" font-family="'ArialMT'" font-size="9">Beam 4</text>
+	<circle fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" cx="12.137" cy="12.137" r="11.637"/>
+	<circle fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" cx="12.137" cy="48.281" r="11.637"/>
+	<circle fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" cx="12.137" cy="84.425" r="11.637"/>
+	<circle fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" cx="12.137" cy="120.569" r="11.637"/>
+	<g>
+		<g>
+			<polyline fill="none" stroke="#000000" stroke-miterlimit="10" points="196.729,54.831 132.365,12.137 90.024,12.137 			"/>
+			<g>
+				<polygon points="196.434,50.192 195.699,54.147 192.34,56.364 201.703,58.13 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<polyline fill="none" stroke="#000000" stroke-miterlimit="10" points="193.121,61.257 134.488,48.28 90.024,48.28 			"/>
+			<g>
+				<polygon points="191.18,57.034 191.914,60.99 189.578,64.266 198.949,62.547 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<polyline fill="none" stroke="#000000" stroke-miterlimit="10" points="193.121,71.448 134.488,84.425 90.024,84.425 			"/>
+			<g>
+				<polygon points="189.578,68.439 191.914,71.715 191.18,75.671 198.949,70.158 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<polyline fill="none" stroke="#000000" stroke-miterlimit="10" points="196.938,78.088 134.488,120.568 90.024,120.568 			"/>
+			<g>
+				<polygon points="192.533,76.606 195.916,78.783 196.697,82.73 201.873,74.731 				"/>
+			</g>
+		</g>
+	</g>
+	<path fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" d="M198.949,70.158
+		c0.607,1.752,1.617,3.314,2.924,4.573c2.092,2.014,4.93,3.258,8.064,3.258c6.426,0,11.637-5.21,11.637-11.636
+		c0-6.427-5.211-11.637-11.637-11.637c-3.217,0-6.129,1.305-8.234,3.415c-1.229,1.23-2.172,2.739-2.754,4.417
+		c-0.414,1.194-0.648,2.471-0.648,3.806S198.535,68.964,198.949,70.158z"/>
+	<g>
+		<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="205.771" y1="66.357" x2="214.104" y2="66.357"/>
+		<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="209.932" y1="70.519" x2="209.932" y2="62.186"/>
+	</g>
+</g>
+</svg>
