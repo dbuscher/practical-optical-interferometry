@@ -1,0 +1,152 @@
+---
+layout: default
+title: Chapter 8 - Data reduction
+---
+
+
+ <a id="tth_chAp8"></a><h1>
+Chapter 8 <br />Data reduction</h1>
+
+<div class="p"><!----></div>
+<a id="tth_fIg8.1">
+</a>   
+<table align="center" border="0"><tr><td>
+<img width=500 src="figs/degeneracy.png" alt="figs/degeneracy.png" /></td></tr></table><!--hboxt-->
+  
+<div style="text-align:center">Figure 8.1: Schematic outline of the forward problem in scientific inference. SVG file: <a href="https://github.com/dbuscher/practical-optical-interferometry/blob/master//diagrams/degeneracy.svg">degeneracy.svg</a></div>
+  <a id="fig:inference">
+</a>
+
+<div class="p"><!----></div>
+
+<div class="p"><!----></div>
+
+<div class="p"><!----></div>
+<a id="tth_fIg8.2">
+</a>  
+<table align="center" border="0"><tr><td>
+<img width=500 src="figs/interferometric-forward-and-reverse.png" alt="figs/interferometric-forward-and-reverse.png" /></td></tr></table><!--hboxt-->
+  
+<div style="text-align:center">Figure 8.2: The forward model of an interferometric measurement (left) and an outline of the data reduction process for interferometric data (right). SVG file: <a href="https://github.com/dbuscher/practical-optical-interferometry/blob/master//diagrams/interferometric-forward-and-reverse.svg">interferometric-forward-and-reverse.svg</a></div>
+  <a id="fig:forward">
+</a>
+
+<div class="p"><!----></div>
+
+<div class="p"><!----></div>
+
+<div class="p"><!----></div>
+<a id="tth_fIg8.3">
+</a> [b]0.49
+  <img width=500 src="figs/component-fringes.png" alt="figs/component-fringes.png" />
+[b]0.49
+  <img width=500 src="figs/superposed-fringes.png" alt="figs/superposed-fringes.png" />
+
+  
+<div style="text-align:center">Figure 8.3: A discretely-sampled fringe pattern with an envelope. The individual fringe patterns are shown on the left and the superposed pattern on the right. Python file: <a href="https://github.com/dbuscher/practical-optical-interferometry/blob/master//plots/component-fringes.py">component-fringes.py</a> Python file: <a href="https://github.com/dbuscher/practical-optical-interferometry/blob/master//plots/superposed-fringes.py">superposed-fringes.py</a></div>
+  <a id="fig:sampled-fringe">
+</a>
+
+<div class="p"><!----></div>
+
+<div class="p"><!----></div>
+
+<div class="p"><!----></div>
+<a id="tth_fIg8.4">
+</a>   
+<table align="center" border="0"><tr><td>
+<img width=500 src="figs/discretising.png" alt="figs/discretising.png" /></td></tr></table><!--hboxt-->
+  
+<div style="text-align:center">Figure 8.4: Discretising a continuous function represented as converting it to a series of Dirac delta functions. Python file: <a href="https://github.com/dbuscher/practical-optical-interferometry/blob/master//plots/discretising.py">discretising.py</a></div>
+  <a id="fig:dft">
+</a>
+
+<div class="p"><!----></div>
+
+<div class="p"><!----></div>
+
+<div class="p"><!----></div>
+<a id="tth_fIg8.5">
+</a>   
+<table align="center" border="0"><tr><td>
+<img width=500 src="figs/dft-amplitude.png" alt="figs/dft-amplitude.png" /></td></tr></table><!--hboxt-->
+  
+<div style="text-align:center">Figure 8.5: The magnitude of the DFT of the fringe pattern shown in Figure&nbsp;<a href="#fig:sampled-fringe">8.3</a>. The component at zero frequency has been truncated. Python file: <a href="https://github.com/dbuscher/practical-optical-interferometry/blob/master//plots/dft-amplitude.py">dft-amplitude.py</a></div>
+  <a id="fig:dft-sampled-fringe">
+</a>
+
+<div class="p"><!----></div>
+
+<div class="p"><!----></div>
+
+<div class="p"><!----></div>
+<a id="tth_fIg8.6">
+</a> [b]0.49
+  <img width=500 src="figs/leakage-sine.png" alt="figs/leakage-sine.png" />
+[b]0.49
+  <img width=500 src="figs/leakage-fourier.png" alt="figs/leakage-fourier.png" />
+
+  
+<div style="text-align:center">Figure 8.6: A sinusoid with an integral number of fringe cyles over the sampling interval (upper left) and with a non-integral number of fringe cycles (lower left) and their corresponding discrete Fourier transforms (right). The DC value of the fringe pattern has been set to zero to provide greater clarity. Python file: <a href="https://github.com/dbuscher/practical-optical-interferometry/blob/master//plots/leakage-sine.py">leakage-sine.py</a> Python file: <a href="https://github.com/dbuscher/practical-optical-interferometry/blob/master//plots/leakage-fourier.py">leakage-fourier.py</a></div>
+  <a id="fig:truncated-sinusoid-ft">
+</a>
+
+<div class="p"><!----></div>
+
+<div class="p"><!----></div>
+
+<div class="p"><!----></div>
+<a id="tth_fIg8.7">
+</a> [b]0.49
+  <img width=500 src="figs/window-sine.png" alt="figs/window-sine.png" />
+[b]0.49
+  <img width=500 src="figs/leakage-window.png" alt="figs/leakage-window.png" />
+
+  
+<div style="text-align:center">Figure 8.7: Windowing by a Gaussian (left) and its effect on spectral leakage (right). Python file: <a href="https://github.com/dbuscher/practical-optical-interferometry/blob/master//plots/window-sine.py">window-sine.py</a> Python file: <a href="https://github.com/dbuscher/practical-optical-interferometry/blob/master//plots/leakage-window.py">leakage-window.py</a></div>
+  <a id="fig:windowing">
+</a>
+
+<div class="p"><!----></div>
+
+<div class="p"><!----></div>
+
+<div class="p"><!----></div>
+<a id="tth_fIg8.8">
+</a>   
+<table align="center" border="0"><tr><td>
+<img width=500 src="figs/photometric_calibration.png" alt="figs/photometric_calibration.png" /></td></tr></table><!--hboxt-->
+  
+<div style="text-align:center">Figure 8.8: Schematic of a photometric calibration system SVG file: <a href="https://github.com/dbuscher/practical-optical-interferometry/blob/master//diagrams/photometric_calibration.svg">photometric_calibration.svg</a></div>
+  <a id="fig:photometric-calibration">
+</a>
+
+<div class="p"><!----></div>
+
+<div class="p"><!----></div>
+
+<div class="p"><!----></div>
+<a id="tth_fIg8.9">
+</a> 
+<table align="center" border="0"><tr><td>
+<img width=500 src="figs/pti-visibilities-vector.png" alt="figs/pti-visibilities-vector.png" /></td></tr></table><!--hboxt-->
+  
+<div style="text-align:center">Figure 8.9: Squared visibility measurements from the Palomar Testbed Interferometer as a function of time of night. Measurements from both the target star (51 Peg) and the calibrator star (HD 215510) are shown. The authors of the paper conclude that there is little evidence for the target star being resolved, and so the majority of the visibility variation seen in both the target and the calibrator is due to variations in the system visibility.  From  SVG file: <a href="https://github.com/dbuscher/practical-optical-interferometry/blob/master//diagrams/pti-visibilities-vector.svg">pti-visibilities-vector.svg</a></div>.
+  <a id="fig:calibration">
+</a>
+
+<div class="p"><!----></div>
+
+<div class="p"><!----></div>
+
+Chapter 10 <br />Fourier transforms</h1>
+
+ <a id="tth_chAp11"></a><h1>
+Chapter 11 <br />Supplementary online material</h1>
+
+<br /><br /><hr /><small>File translated from
+T<sub><span class="small">E</span></sub>X
+by <a href="http://hutchinson.belmont.ma.us/tth/">
+T<sub><span class="small">T</span></sub>H</a>,
+version 4.05.<br />On 10 Jul 2015, 13:07.</small>
+</html>
