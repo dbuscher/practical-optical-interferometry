@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 from plotTools import *
-from air import Air,GroupDelayRefractivity
+from Air import Air,GroupDelayRefractivity
 
 wav=np.linspace(0.45,2.4,200)
 air=Air()

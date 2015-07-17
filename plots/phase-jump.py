@@ -1,38 +1,44 @@
 from plotTools import *
-import temprl
-import scipy.signal
-import pickle
+
+def chop(samples,maxLag):
+    """Chop a 1-d array into a 2-d array of slices of length maxLag.  The
+    length of samples does not have to be a multiple of maxlag - the remainder
+    is discarded"""
+    maxSamp=len(samples)
+    numWindow=int(maxSamp/maxLag)
+    numSamp=numWindow*maxLag
+    return samples[:numSamp].reshape(numWindow,maxLag)
 
 def ComplexVisibility(phases,nint=1):
-    phases=temprl.chop(phases,nint)
+    """Return the complex visibility for a coherent integration of
+    nint samples of the phase"""
+    phases=chop(phases,nint)
     v=np.exp(1j*phases)
     return np.sum(v,axis=-1)/nint
 
 def MeanPhase(phases,nint):
-    phases=temprl.chop(phases,nint)
+    """Boxcar-average a phase sequence"""
+    phases=chop(phases,nint)
     return np.sum(phases,axis=-1)/nint
 
 def Unwrap(phases):
+    """Unwrap a sequence of phases to track phase excursions of more than 2pi"""
     diff=zeros_like(phases)
     diff[1:]=phases[1:]-phases[:-1]
     diff=mod(diff+pi,2*pi)-pi
     return add.accumulate(diff)
-#phase=pickle.load(open( "ch5/phases.pickle", "rb" ),fix_imports=True )["phase"]
-#phase=ascii.read("junk.txt")["phase"]
-phase=np.loadtxt(DataFilePath("phase-sequence.txt"))
-#for p in phase:
-#    print(p)
-#    print(float(p))
 
+#Read in simulated time sequence of data
+phase=np.loadtxt(DataFilePath("phase-sequence.txt"))
 nint=12
 avPhase=MeanPhase(phase,nint)
 visPhase=angle(ComplexVisibility(phase,nint))
 trackedPhase=Unwrap(visPhase)+avPhase[0]
 
-
+# Select a suitable subset of the data to plot
 min=2410*nint
 max=min+40*nint
-nint=12
+
 t0=12.
 avPhase=MeanPhase(phase[min:max],nint)
 trackedPhase=Unwrap(angle(ComplexVisibility(phase[min:max],nint)))+avPhase[0]
