@@ -1,3 +1,8 @@
+---
+layout: default
+title: Figure source files
+---
+
 Practical optical interferometry
 ================================
 Imaging at visible and infrared wavelengths
