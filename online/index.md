@@ -1,5 +1,7 @@
-Online material for interferometry
-==================================
+---
+layout: page
+title: Online material for interferometry
+---
 
 International interferometry organisations
 ------------------------------------------
