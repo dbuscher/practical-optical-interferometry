@@ -5,10 +5,10 @@ title: Online material for interferometry
 
 International interferometry organisations
 ------------------------------------------
-These pages provide links to many other useful pages on interferometry
 
- * [IAU commission 54 on optical and infrared interferometry](http://iau-c54.wikispaces.com)
+ * [IAU commission 54 on optical and infrared interferometry](http://iau-c54.wikispaces.com). This is the go-to site for information on interferometry and provides links to many other useful pages.
  * [The European Interferometry Initiative (EII)](http://www.european-interferometry.eu)
+ * The OLBIN (Optical Long-Baseline Interferometry News) [mailing list](https://listes.ujf-grenoble.fr/sympa/info/olbin)
 
 Data reduction/model fitting/image reconstruction software
 ----------------------------------------------------------
