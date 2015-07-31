@@ -10,4 +10,4 @@ The Python files have all been converted to work with Python3. Use with Python2 
 Download (for example using the "download as ZIP file" link on the right hand side of the page) and unpack a copy of this repository. To recreate the PDF files of the plots go to the plots subdirectory and type "make". To recreate the PDF files of the diagrams go to the diagrams subdirectory and type "make". This latter requires the inkscape and epstopdf executables.
 
 ## Licence
-The python code is realeased under a BSD licence and the SVG diagrams are released under a Creative Commons licence. See the LICENCE.txt/LICENCE.html files in the respective directories for more detail.
+The python code is realeased under a BSD licence and the SVG diagrams are released under a Creative Commons licence. See the README files in the respective directories for more detail.
