@@ -12,5 +12,5 @@ The supplementary material consists of
  * [Source material for the figures](figures): Python code for the plots in the book and editable versions of the diagrams.
  * An [interferometry simulation framework](https://github.com/dbuscher/pois): a basic Python framework for simulating the data from a ground-based optical interferometer
 * [Links to other online material](online): websites with further information about interferometry, data reduction and image reconstruction software etc.
- * Errata
+ * [Errata](errata)
 
