@@ -4,7 +4,7 @@ title: Practical optical interferometry
 ---
 ![beampath.png](longbaseline-colour.png)
 
-This website provides supplementary material for the book ["Practical Optical Interferometry: Imaging at visible and infrared wavelengths"](http://www.cambridge.org/us/academic/subjects/astronomy/observational-astronomy-techniques-and-instrumentation/practical-optical-interferometry-imaging-visible-and-infrared-wavelengths), published by Cambridge University Press. A preview of the book is available on [Google Books](https://books.google.co.uk/books?id=3XgZCgAAQBAJ&lpg=PR8&ots=99oJnFmTh3&lr=lang_en&pg=PP1#v=onepage&q&f=false).
+This website provides supplementary material for the book ["Practical Optical Interferometry: Imaging at visible and infrared wavelengths"](https://doi.org/10.1017/CBO9781107323933), published by Cambridge University Press. A preview of the book is available on [Google Books](https://books.google.co.uk/books?id=3XgZCgAAQBAJ&lpg=PR8&ots=99oJnFmTh3&lr=lang_en&pg=PP1#v=onepage&q&f=false).
 
 The supplementary material consists of
 
